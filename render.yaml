@@ -4,4 +4,4 @@ services:
     repo: <your-github-repo-url>
     branch: main
     build_command: ''
-    publish_directory: '.'
+    publish_directory: 'public'
