@@ -1,8 +1,7 @@
 services:
   - type: static_site
     name: tic-tac-toe
-    repo: https://github.com/xing24xing/TicTacToe.git
+    repo: <your-github-repo-url>
     branch: main
     build_command: ''
-    publish_directory: 'static'
-    env: []
+    publish_directory: '.'
